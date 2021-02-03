@@ -1,0 +1,75 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(to right,#ef395b,#f14d45,#c83383,#340bae);
+}
+table{
+  /* position: relative; */
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 0;
+  margin: 0px auto;
+  background-color: #272727;
+  border-radius: 10%;
+}
+table tr td {
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, .05);
+  border-radius: 12px;
+  font-size: 30px;
+  text-align: center;
+} 
+table tr td:hover {
+  background-color: #2c3531;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.but{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: #000;
+  color: wheat;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translate(-50%,-50%);
+  left: 50.1%;
+  top: 80vh;
+  margin-top: 70px;
+}
+
+
+.text{
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+}
+
+.shift{
+  top: 50%;
+  left: 50%;
+  transform: translate(1%,100%);
+}
+
+.text1{
+  text-align: center;
+  top: 100px;
+  left: 50%;
+  transform: translate(-45%,200%);
+  position: absolute;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
+but:hover{
+  color: #3FC80E;
+}

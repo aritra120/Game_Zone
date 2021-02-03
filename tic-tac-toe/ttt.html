@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ttt.css">
+  <title>Tic-tac-Toe</title>
+</head>
+
+<body onload="startGame()">
+  <h1>
+    <font color='black' class="text">
+      Tic-Tac-Toe
+    </font>
+  </h1><br>
+  <div id="message" class="text1">
+    Result
+  </div>
+  <table class="shift">
+    <tr>
+      <td id="s1" class="squre" onclick="nextMove(this);"></td>
+      <td id="s2" class="squre" onclick="nextMove(this);"></td>
+      <td id="s3" class="squre" onclick="nextMove(this);"></td>
+    </tr>
+    <tr>
+      <td id="s4" class="squre" onclick="nextMove(this);"></td>
+      <td id="s5" class="squre" onclick="nextMove(this);"></td>
+      <td id="s6" class="squre" onclick="nextMove(this);"></td>
+    </tr>
+    <tr>
+      <td id="s7" class="squre" onclick="nextMove(this);"></td>
+      <td id="s8" class="squre" onclick="nextMove(this);"></td>
+      <td id="s9" class="squre" onclick="nextMove(this);"></td>
+    </tr>
+  </table>
+  <div class="butom__third">
+    <button type="reset" onclick="startGame()" class="but">Start New Game</button>
+  </div>
+  
+  <script type="text/javascript" src="ttt.js"></script>
+</body>
+</html>
